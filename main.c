@@ -14,6 +14,7 @@ int main() {
 	// ??
 	uint8_t curve = 0;
 
+	// 0x4b0927e304ea62a34bde5a33d882a101ca1b595f7686aaa421cbe75dc65344d26104d10cf81ec2b4ad3185591c36d782e10b73d48bc39a7ebadee9a0075044b81c
 	int sig = uECC_sign(privateKey, messageHash, 32, signature, curve);
 	
 	return 0;
